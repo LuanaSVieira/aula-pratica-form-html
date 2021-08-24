@@ -1,13 +1,13 @@
 {
-  "name": "dados",
+  "name": "atividade2",
   "version": "1.0.0",
-  "description": "Dados pessoais",
-  "main": "dados.html",
+  "description": "Atividade 2",
+  "main": "atividade2.html",
   "scripts": {
   },
   "keywords": [
-    "dados",
-    "pessoais"
+    "Atividade",
+    "2"
   ],
   "author": "Luana Vieira",
   "license": "ISC"

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+	<form action="" method="POST">
+		<fieldset style="width: 400px" style="height: 400px">
+			<h1>Formulário</h1>
+		<fieldset style="width: 500px" style="height: 400px">
+			<legend>Dados Pessoais</legend>
+		<div id="pessoal">
+			<label>Nome:</label>
+			<input type="text" id="nome" name="nome"><br><br>
+			<label>Endereço:</label>
+			<input type="text" id="endereco" name="endereco"><br><br>
+            <label>Cidade:</label>
+            <input type="text" id="cidade" name="cidade"><br><br>
+            <label id="estado">Estado:</label>
+           <select style="width: 100px" id="estado">
+            	<option value="Sao Paulo">São Paulo</option>
+            	<option value="Pernambuco">Pernambuco</option>
+            	<option value="Rio de Janeiro">Rio de Janeiro</option>
+            </select><br>
+	    </div>
+	    </fieldset>
+	    <fieldset style="width: 500px" style="height: 400px">
+	    	<legend>Dados Profissionais</legend>
+	    	<label>Natureza do Cargo</label><br>
+			<input type="radio" id="gerencia" name="Natureza do Cargo" value="gerencia">
+			<label for="Gerência">Gerência</label>
+			<input type="radio" id="financeiro" name="Natureza do Cargo" value="financeiro">
+			<label for="Finaceiro">Financeiro</label>
+			<input type="radio" id="recepcao" name="Natureza do Cargo" value="recepcao">
+			<label for="Recepção">Recepção</label>
+			<input type="radio" id="administrativo" name="Natureza do Cargo" value="administrativo">
+			<label for="administrativo">Administrativo</label>
+            <input type="radio" id="juridico" name="Natureza do Cargo" value="juridico">
+			<label for="juridico">Jurídico</label>
+			<br><br>
+			<label>Área de Interesse</label><br>
+			<input type="checkbox" id="area1" name="area1" value="computacao">
+			<label for="area1">Computação</label>
+			<input type="checkbox" id="area2" name="area2" value="biologia">
+			<label for="area2">Biologia</label>
+			<input type="checkbox" id="area3" name="area3" value="meio ambiente">
+			<label for="area3">Meio Ambiente</label>
+			<input type="checkbox" id="area4" name="area4" value="engenharia">
+			<label for="area4">Engenharia</label>
+			<input type="checkbox" id="area5" name="area5" value="historia">
+			<label for="area5">História</label>
+			<br><br>
+			<label for="comentario">Mini-Currículo:</label>
+			<textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+	    </fieldset><br>
+	    <input type="submit" value="Enviar">
+	    <input type="submit" value="Limpar">
+	    </fieldset>
+	</form>
+
+
+</body>
+</html>
