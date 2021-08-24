@@ -1,0 +1,14 @@
+{
+  "name": "dados",
+  "version": "1.0.0",
+  "description": "Dados pessoais",
+  "main": "dados.html",
+  "scripts": {
+  },
+  "keywords": [
+    "dados",
+    "pessoais"
+  ],
+  "author": "Luana Vieira",
+  "license": "ISC"
+}
