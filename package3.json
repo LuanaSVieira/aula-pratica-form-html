@@ -1,0 +1,15 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Formulario de login",
+  "main": "login.html",
+  "scripts": {
+    },
+  "keywords": [
+    "formulario",
+    "de",
+    "login"
+  ],
+  "author": "Luana Vieira",
+  "license": "ISC"
+}
